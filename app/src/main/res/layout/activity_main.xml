@@ -9,13 +9,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy birthday Yeren!" />
+        android:text="Happy birthday Yeren!"
+        android:textSize="36sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:text="From Modesto"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
