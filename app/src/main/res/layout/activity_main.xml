@@ -11,20 +11,56 @@
         android:layout_height="match_parent"
         android:src="@drawable/happybirthday"
         android:scaleType="centerCrop"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_above="@+id/from_textview">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/crazy"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/chinese"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/beautiful"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy birthday Yeren!"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:layout_margin="20dp"
+        android:shadowColor="@android:color/background_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"/>
     <TextView
+        android:id="@+id/from_textview"
         android:layout_width="wrap_content"
-        android:text="From Modesto"
+        android:text="From Mody"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="@android:color/background_dark"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"/>
 </RelativeLayout>
